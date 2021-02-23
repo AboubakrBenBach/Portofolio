@@ -12,6 +12,14 @@
     url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
   font-display: swap;
 }
+@font-face {
+  font-family: "Poppy Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Poppy Regular"),
+    url("./assets/fonts/Poppy-Shower-400.woff") format("woff");
+  font-display: swap;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

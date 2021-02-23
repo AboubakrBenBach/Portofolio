@@ -3,6 +3,7 @@ import Headroom from "react-headroom";
 import "./Header.css";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
+import Button from "../../components/button/Button";
 import {
   greeting,
   workExperiences,
@@ -21,6 +22,7 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
+  const viewResume = greeting.display;
 
   return (
     <Headroom>
@@ -72,11 +74,11 @@ function Header() {
           <li>
             <a href="#contact">Contact Me</a>
           </li>
+
           <li>
-            <a href="#">
-              <ToggleSwitch />
-            </a>
+            <a href={greeting.resumeLink}  target="_blank" className="header-button">Resume</a>
           </li>
+         
         </ul>
       </header>
     </Headroom>

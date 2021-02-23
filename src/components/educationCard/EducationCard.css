@@ -3,6 +3,8 @@
   flex-direction: row;
 }
 
+
+
 .education-card:hover + .education-card-border {
   border-color: #a9a7f9;
   width: 100%;
@@ -29,13 +31,13 @@
 }
 
 .education-text-school {
-  margin: 0;
-  font-size: 28px;
+  margin-top: 15px;
+  font-size: 25px;
   font-weight: 700;
-  text-overflow: ellipsis;
+  /*text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  height: 27px;
+  height: 27px;*/
 }
 
 .education-roundedimg {
@@ -47,16 +49,16 @@
   border-radius: 50%;
 }
 
-.education-card-right {
+/*.education-card-right {
   max-width: 70%;
-}
+}*/
 
 .education-text-subHeader {
   color: black;
   font-weight: 700;
   font-size: 19px;
   margin: 0px;
-  padding-top: 0.8rem;
+  padding-top: 0px;
   line-height: normal;
 }
 

@@ -52,11 +52,12 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Agustina Regular";
+  font-family: "Poppy Regular";
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  color: #1F77B4;
 }
 
 /* menu */
@@ -166,4 +167,23 @@
   .header {
     font-size: 12px;
   }
+}
+
+.header-button {
+  /*background-color: #1F77B4;*/
+  border: solid 1px #1F77B4;
+  color: white;
+  font-weight: 700;
+  width: max-content;
+  /*padding: 13px 22px;*/
+  margin-right: 50px;
+  /*text-transform: uppercase;*/
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  /*margin-top: 20px;*/
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
 }

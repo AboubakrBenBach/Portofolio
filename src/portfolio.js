@@ -9,28 +9,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "Ben Bachir Aboubakar Nabil",
+  title: "Hi all, I'm Ben Bachir",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A Software Engineering student  👨🏻‍🎓 , having experience in the development of web applications with Php,"+
+    "Java as well with the use of frameworks like Symfony, Spring Boot."+
+    " I am passionate about artificial intelligence 👨🏻‍💻, especially machine learning and deep learning."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1DmrKi2x5pHDoAOx3KqcjH_ZBasSDEwt9/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
-  // gitlab: "https://gitlab.com/",
-  // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  linkedin: "https://www.linkedin.com/in/aboubakrbenbach/",
+  github: "https://github.com/AboubakrBenBach",
+  gmail: "aboubakrbenbach@gmail.com",
+ // instagram: 'https://www.instagram.com/aboubakr_ben_bach/',
+  twitter: 'https://twitter.com/aboubakrbenbac',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -38,15 +36,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "The technologies I work on for the different projects and my learning",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "👆 I put into practice all these technologies during my experiences and academic and personal projects"
     )
+   
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -54,45 +49,70 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Php",
+      fontAwesomeClassname: ""
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Java",
+      fontAwesomeClassname: ""
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Symfony",
+      fontAwesomeClassname: ""
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: ""
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "React JS",
+      fontAwesomeClassname: ""
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Spring Boot",
+      fontAwesomeClassname: ""
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "MySQL",
+      fontAwesomeClassname: ""
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "HTML",
+      fontAwesomeClassname: ""
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "CSS",
+      fontAwesomeClassname: ""
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }
+      skillName: "Bootstrap",
+      fontAwesomeClassname: ""
+    },
+    {
+      skillName: "ASP .NET CORE WEB API",
+      fontAwesomeClassname: ""
+    },
+    {
+      skillName: "Machine Learning",
+      fontAwesomeClassname: ""
+    },
+    {
+      skillName: "Scikit learn",
+      fontAwesomeClassname: ""
+    },
+    {
+      skillName: "Pandas",
+      fontAwesomeClassname: ""
+    },
+    {
+      skillName: "Numpy",
+      fontAwesomeClassname: ""
+    },
+    {
+      skillName: "Tensorflow",
+      fontAwesomeClassname: ""
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -100,27 +120,31 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Université du Québec à Montréal ",
+      logo: require("./assets/images/uqam.png"),
+      subHeader: "Specialized higher studies diploma",
+      duration: "Septembre 2019 - April 2021",
+      desc: "",
+     
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+      schoolName: "Ecole SUP-MTI (Rabat-Maroc)",
+      logo: require("./assets/images/supmti.png"),
+      subHeader: "Bac + 5 Diploma in Information Systems",
+      duration: "October 2017 - June 2019",
+      
+    },
+    {
+      schoolName: "Université de Ngaoundere",
+      logo: require("./assets/images/ndere.png"),
+      subHeader: "Bachelor in System and Network Architecture",
+      duration: "October 2014 - June 2017",
+    
+    },
+
   ]
 };
 
@@ -151,35 +175,77 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      role: "Developer",
+      company: "Université du Québec à Montréal",
+      companylogo: require("./assets/images/uqam.png"),
+      date: "Fall 2020 – Present",
       desc:
-        "Changing lives of developers one line of code at a time.",
-      descBullets: [
+        "Determine and document the Concept of Operation and Software  Requirements Specification document",
+     /* descBullets: [
         "Custom building applications",
         "Coaching",
         "Streaming live on YouTube",
         "Creating tutorials"
-      ]
+      ]*/
+      techno:
+      "Technologies utilisées : Norme IEEE std 1362-1998 IEEE Guide for Information Technology- System Definition-Concept of Operations (ConOps),"+
+      "IEEE Std 830 - IEEE Recommended Practice for Software Requirements Specifications"
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      role: "Internship",
+      company: "METLAB RESEARCH",
+      //companylogo: require("./assets/images/cpLogo.png"),
+      date: "November 2020 – February 2021",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+        "Develop the functionalities of the High Voltage Software Services web platform.",
+     /* descBullets: [
+        "Custom building applications",
+        "Coaching",
+        "Streaming live on YouTube",
+        "Creating tutorials"
+      ]*/
+      techno:
+      "Technologies utilisées : WordPress, Elementor, HTML5, CSS, PHP."
     },
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
+      role: "Web Developer",
+      company: "Freelance",
+      //companylogo: require("./assets/images/ersteLogo.jpg"),
+      date: "Janvier 2020 – Present",
       desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
-    }
+        "I develop web applications for individuals clients.",
+    /*  descBullets: [
+          "https://www.loanpaymentscalculator.com (en cours)",
+          "https://www.beafricasanarwa.com/",
+          "GESCOL (application de gestion des écoles)",
+          "développement d'un réseau de neurones à convolution (CNN) capable de distinguer entre six espèces d'animaux : Éléphants, Girafe, Léopard, Rhinocéros, Tigres, Zèbre ",
+          "Application de gestion des patiens et consultations"
+        ]*/
+        techno:
+      "Technologies utilisées : HTML5, CSS, PHP, Symfony 5, JavaScript, Bootstrap, JAVA, React JS, Tensorflow, Kera"
+    },
+    {
+      role: "IT Technician",
+      company: "Action plus à Bangui (RCA)",
+      //companylogo: require("./assets/images/vodafoneLogo.png"),
+      date: "May 2013 – January 2015",
+      desc:
+        "website programming and machine configurations",
+      techno:
+        "Technologies utilisées : HTML5, CSS, PHP, JavaEE, Bootstrap, DBA1"
+       
+    },
+    {
+      role: "Internship",
+      company: "Kelogy Company",
+      companylogo: require("./assets/images/kelo.png"),
+      date: "February 2019 – July 2019",
+      desc:
+        "Establishment of the training management platform",
+      techno:
+       "Technologies utilisées : Symfony 3.4, Doctrine, JavaScript, Spring Boot, Thymeleaf, Bootstrap"
+    },
+   
   ]
 };
 
@@ -223,7 +289,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -285,7 +351,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section

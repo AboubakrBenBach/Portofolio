@@ -1,16 +1,16 @@
 .dev-icons {
-  padding-left: 0;
+  /*padding-left: 0;*/
   list-style: none;
   font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  text-align: center;
+  /*margin-bottom: 0px;
+  margin-top: 0px;*/
+  /*text-align: center;*/
 }
 
 .software-skill-inline {
   display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  /*margin-right: 20px;
+  margin-bottom: 20px;*/
 }
 
 .software-skill-inline > i {
@@ -18,7 +18,7 @@
 }
 
 .software-skill-inline > i:hover {
-  color: #645beb;
+  color: #1F77B4;
 }
 .software-skill-inline > p {
   color: #868e96;
@@ -26,4 +26,22 @@
 }
 .software-skill-inline > i:hover ~ p {
   color: #645beb;
+}
+
+.software-skill-button {
+  background-color: #1F77B4;
+  border: solid 1px #1F77B4;
+  color: white;
+  font-weight: 700;
+  width: max-content;
+  margin-right: 20px;
+  /*text-transform: uppercase;*/
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
 }

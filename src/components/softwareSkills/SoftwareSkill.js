@@ -1,6 +1,7 @@
 import React from "react";
 import "./SoftwareSkill.css";
 import {skillsSection} from "../../portfolio";
+import Button from "../../components/button/Button";
 
 export default function SoftwareSkill() {
   return (
@@ -14,8 +15,9 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
-                <p>{skills.skillName}</p>
+               {/* <i className={skills.fontAwesomeClassname}></i> */}
+                <button className="software-skill-button">{skills.skillName}</button>
+          
               </li>
             );
           })}
